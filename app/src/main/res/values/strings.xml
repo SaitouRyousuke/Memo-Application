@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="action_settings">Settings</string>
+    <string name="top_text">TOP PAGE</string>
+</resources>
