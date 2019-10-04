@@ -29,7 +29,6 @@ class ScheduleEditActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_schedule_edit)
-//        realm = Realm.getDefaultInstance() //Realmのインスタンスを取得
         val realmConfig = RealmConfiguration.Builder()
             .deleteRealmIfMigrationNeeded()
             .build()

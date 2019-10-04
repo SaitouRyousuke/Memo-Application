@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-//        realm = Realm.getDefaultInstance() //Realmクラスのインスタンスを取得
         val realmConfig = RealmConfiguration.Builder()
             .deleteRealmIfMigrationNeeded()
             .build()

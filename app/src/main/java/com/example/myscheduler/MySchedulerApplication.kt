@@ -10,10 +10,5 @@ class MySchedulerApplication : Application() { //Applicationクラスを継承
     override fun onCreate() { //ApplicationクラスのonCreateメソッドをオーバーライド
         super.onCreate()
         Realm.init(this) //Realm初期化
-//        realm = Realm.getDefaultInstance()
-//        val realmConfig = RealmConfiguration.Builder()
-//            .deleteRealmIfMigrationNeeded()
-//            .build()
-//        realm = Realm.getInstance(realmConfig)
     }
 }
